@@ -1,17 +1,22 @@
 {
   "name": "supalite-react-typescript-starter",
   "version": "1.0.0",
+  "source": "index.html",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel": "^2.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
   }
 }
